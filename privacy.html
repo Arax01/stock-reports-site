@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock Research</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --link: #1a5fb4; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #ececec; --muted: #a0a0a0; --link: #8ab4f8; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem; }
+  h1 { font-size: 1.6rem; margin: 0 0 .5rem; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stock Research</h1>
+  <p class="muted">A personal research tool. Not a product, not a service, and not available to anyone else.</p>
+  <p>Stock Research is a private program that one person runs for their own stock research. It writes research
+     reports and screens from public market data and public SEC filings.</p>
+  <p>Its only use of Google is to <strong>copy those reports into a folder in its owner's own Google Drive</strong>,
+     so the owner can read them there. It asks for the narrowest Drive permission, <code>drive.file</code>: it can see
+     and change only the files it created itself, and nothing else in the Drive.</p>
+  <ul>
+    <li>No other Google data is read (no email, contacts, calendar or other Drive files).</li>
+    <li>Nothing is shared, sold or sent to anyone else.</li>
+    <li>Access can be removed at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+  <p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
